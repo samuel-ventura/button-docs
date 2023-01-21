@@ -1,0 +1,67 @@
+.tableArea {
+  background: var(--black);
+  color: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tableArea > header {
+  display: flex;
+  margin-top: 6.69rem;
+  margin-left: 6.7rem;
+  max-width: 48.6rem;
+
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.tableArea > header > h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.tableArea > header > p {
+  color: var(--white);
+  opacity: 60%;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+table {
+  background: var(--purple-700);
+  border-radius: 8px;
+  color: var(--white);
+  font-size: 0.9rem;
+  font-weight: thin;
+  text-transform: uppercase;
+
+  margin-top: 5rem;
+  margin-left: 6.7rem;
+  margin-right: 6.7rem;
+  max-width: 70rem;
+}
+
+tr {
+  height: 64px;
+  
+}
+
+tr > td {
+
+}
+
+tr > td > button {
+  border: none;
+  border-radius: 24px;
+  height: 48px;
+  padding: 0 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  text-transform: uppercase;
+}
