@@ -72,3 +72,21 @@
   padding: 0 4rem;
   gap: 0.8rem;
 }
+
+.sidebarButtons > button:nth-child(1):hover {
+  background: var(--purple-300);
+  transition: background 0.5s;
+}
+
+.sidebarButtons > button:nth-child(2):hover {
+  cursor: url(./public/mouse-not-allowed.svg) 4 12, auto;
+}
+
+.sidebarButtons > button:nth-child(2):focus {
+  outline: transparent;
+  box-shadow: none;
+}
+
+.sidebarButtons > button:nth-child(3):hover {
+  cursor: url(./public/move-sign.svg) 4 12, auto;
+}

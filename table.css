@@ -1,5 +1,5 @@
 .tableArea {
-  background: var(--black);
+  background: var(--purple-900);
   color: var(--white);
 
   display: flex;
@@ -33,11 +33,9 @@
 table {
   background: var(--purple-700);
   border-radius: 8px;
+  border-spacing: 10px;
 
-  margin-top: 5rem;
-  margin-left: 6.7rem;
-  margin-right: 6.7rem;
-  max-width: 80rem;
+  margin: 5rem 6.7rem 0 6.7rem;
 }
 
 tr {
@@ -53,7 +51,6 @@ th {
 }
 
 tr > td {
-  background: var(--black);
   text-align: center;
 }
 

@@ -27,6 +27,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url(./public/default-cursor.svg) 5 12, auto;
 }
 
 body {

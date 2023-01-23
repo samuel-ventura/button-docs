@@ -1,0 +1,50 @@
+tr > td > button {
+  color: var(--white);
+  gap: 0.5rem;
+}
+
+tr > td > button:focus {
+  box-shadow: none;
+}
+
+.primary {
+  background: var(--purple-500);
+}
+
+.secondary {
+  background: var(--gray-500);
+}
+
+.tertiary {
+  background: none;
+}
+
+.hover.primary{
+  background: var(--purple-300);
+}
+
+.hover.secondary{
+  background: var(--gray-300);
+}
+
+.focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2.5px var(--purple-100);
+}
+
+.focus:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2.5px var(--purple-100);
+}
+
+.disabled.primary {
+  opacity: 60%;
+}
+
+.disabled.secondary {
+  opacity: 60%;
+}
+
+.disabled.tertiary {
+  opacity: 60%;
+}
